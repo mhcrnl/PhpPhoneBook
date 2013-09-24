@@ -1,0 +1,6 @@
+CREATE TABLE Persoana(
+     Id INT NOT NULL AUTO_INCREMENT,
+     Nume VARCHAR(20) NOT NULL,
+     Email  VARCHAR(30) NOT NULL,
+     Telefon   INT NOT NULL,
+     primary key ( Id ));

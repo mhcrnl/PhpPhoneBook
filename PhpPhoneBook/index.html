@@ -1,0 +1,54 @@
+<!DOCTYPE html >
+    <html>
+    	<head>
+    		<link rel="stylesheet" href="my_layout.css" type="text/css" />
+    		<title>ConectareInsert</title>
+    	</head>
+    	<body> 
+    		<h1>Agenda Telefonica</h1><p>Data: <?php echo date('d-m-y'); ?></p>
+    		<hr />
+            <nav>
+                 <a href="index.html">Acasa</a> |
+                 <a href="conectare.php">Conectare</a> |
+                 <a href="adaugare.php">Adaugare</a> |
+                 <a href="vizualizare.php">Vizualizare</a> |
+                 <a href="stergere.php">Stergere</a> |
+                 <a href="deconectare.php">Deconectare</a>
+            </nav> 
+            <hr />
+    		<h3>Agenda Telefonica</h3>
+            <p> Este o aplicatie web, care ruleaza pe server (Wamp, Xampp etc.) si este 
+            	dezvoltata in limbaj HTML, CSS, PHP. Baza de date este MySQL.
+            	Baza de date trebuie creata inainte de instalarea aplicatiei si se numeste
+            	'test' in aceasta aplicatia se va creea tabela 'Persoana' in care se vor
+            	adauga in mod automat campurile de introducere a datelor.
+            </p>
+            <h4>Acasa</h4>
+            <p>
+            	In acest meniu aveti o mica prezentare a aplicatiei, poate fi vizualizat
+            	direct in browser fara a necesita instalarea pe server. Celelalte meniuri
+            	se pot accesa numai dupa instalarea aplicatiei pe server. Dupa cum observati
+            	campul "Data:" nu functioneaza, aceasta deoarece extensia filei este .html, 
+            	dupa instalare schimbati extensia in .php si campul va arata data.
+            </p>
+            <h4>Conectare</h4>
+            <p>
+            	Aici va conectati la baza de date, pentru accesarea careia aveti nevoie de
+            	datele de acces.
+            </p>
+            <h4>Adaugare</h4>
+            <p> Adaugati contactele in baza de date.</p>
+            <h4>Vizualizare</h4>
+            <p>Vizualizati contactele existente in baza de date. </p>
+            <h4>Stergere</h4>
+            <p>Stergeti contactele din baza de date identificate dupa Id(este generat automat).</p>
+            <h4>Deconectare</h4>
+            <p>Va deconectati de la baza de date.</p>
+            <hr />	
+    <footer>
+     <p>&copy; Copyright  by Mihai Cornel</p>
+    </footer>
+            
+ 			
+    	</body>
+    </html>

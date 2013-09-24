@@ -1,0 +1,15 @@
+body {
+  	font-size: 14px;
+	font-family: Verdana, Arial, SunSans-Regular, Sans-Serif;
+	margin: 5px;	
+	padding-left:5%;
+	padding-right:5%;
+    color:#FF6600;
+	padding-top:5%;
+	background-color:#CCCCCC;
+
+}
+input{
+	alignment-adjust: central;
+	
+}
